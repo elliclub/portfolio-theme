@@ -1,0 +1,259 @@
+/*
+Theme Name: Perfect portfolio
+Author: Eleonor
+Description: Portfolio theme
+Version: 1.0 
+*/
+
+body {
+	padding: 3em;
+	font-family: Courier New, Courier, monospace;
+}
+.wrapper {
+	max-width: 80%;
+	margin: 0 auto;
+	flex-flow: row wrap;
+	height: 90%;
+	margin-top: 20px;
+}
+.wrapper>* {
+	flex: 1 100%;
+	flex-direction: column;
+	margin-top: 20px;
+}
+.header {
+	background: white;
+	overflow: hidden;
+	border-bottom: 2px solid #F8F1FF;
+}
+.right-header {
+	display: flex;
+	justify-content: flex-end;
+}
+.left-header {
+	margin-bottom: -15px;
+}
+#home img {
+	margin-top: 15px;
+	border-radius: 50%;
+}
+h1 {
+	font-family: cursive;
+	color: #DECDF5;
+	font-size: 30px;
+}
+h2 {
+	font-size: 25px;
+}
+.home-cont {
+	display: flex;
+	justify-content: flex-end;
+	margin-top: -150px;
+	margin-right: 100px;
+	flex: 2 0px;
+}
+.about-cont {
+	max-width: 50%;
+	display: flex;
+	margin-top: 200px;
+}
+.about-content p {
+	margin-bottom: 15px;
+}
+.about-content {
+	margin-top: 35px;
+	margin-left: -120px;
+}
+#insta-img {
+	display: flex;
+	justify-content: flex-end;
+	flex: 1;
+	margin-top: -250px;
+}
+#instafeed>div {
+	justify-content: flex-end;
+	border: 2px solid #DECDF5;
+	padding: 10px;
+	color: #656176;
+	margin-bottom: 40px;
+}
+#instafeed .instagram-text {
+	margin-top: 10px;
+}
+#instafeed a {
+	text-decoration: none;
+	color: #656176;
+}
+footer {
+	margin-top: 300px;
+}
+footer>div {
+	display: flex;
+	justify-content: center;
+}
+footer ul {
+	margin-left: 10px;
+}
+footer li {
+	float: left;
+	margin-right: 10px;
+}
+.header a {
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	color: #DECDF5;
+}
+.header a:hover {
+	color: #B486AB;
+}
+.header a:focus {
+	color: #F8F1FF;
+}
+.school {
+	text-decoration: none;
+	color: #DECDF5;
+}
+.about-content a:hover {
+	color: #B486AB;
+}
+@media (min-width: 1024px) {
+	.dropdown span {
+		display: none;
+	}
+}
+@media screen and (max-width: 1024px) {
+	.wrapper {
+		max-width: 100%;
+		margin: 0 auto;
+	}
+	.img {
+		display: none;
+	}
+	p {
+		font-size: 18px;
+	}
+	.left-header {
+		margin-bottom: -30px;
+	}
+	.dropbtn {
+		border: none;
+		cursor: pointer;
+		color: #DECDF5;
+	}
+	.dropbtn:hover, .dropbtn:focus {
+		color: #B486AB;
+	}
+	.dropdown {
+		position: relative;
+		display: inline-block;
+	}
+	.dropdown-content {
+		display: none;
+		position: fixed;
+		left: 0;
+		background-color: #FFFFFF;
+		width: 100%;
+		box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+		z-index: 1;
+	}
+	.dropdown-content a {
+		padding: 12px 16px;
+		text-decoration: none;
+		display: block;
+		font-size: 20px;
+	}
+	.dropdown-content a:hover {
+		color: #B486AB;
+	}
+	.show {
+		display: block;
+	}
+	h1 {
+		font-size: 30px;
+	}
+	.home-cont {
+		display: flex;
+		justify-content: center;
+		max-width: 65%;
+		margin-top: 20px;
+		margin-right: 100px;
+		flex: 2 0px;
+	}
+	.about-cont {
+		display: flex;
+		justify-content: center;
+		max-width: 100%;
+		margin-top: 100px;
+	}
+	#instafeed {
+		max-width: 320px;
+		margin: 0 auto;
+	}
+	#instafeed>div {
+		border: none;
+		max-width: 100%;
+	}
+	#insta-img {
+		flex: 1;
+		margin-top: 50px;
+		padding: 0;
+		text-align: center;
+	}
+	footer {
+		margin: 0;
+	}
+}
+.author_bio_section{
+background: none repeat scroll 0 0 #F5F5F5;
+padding: 15px;
+border: 1px solid #ccc;
+}
+ 
+.author_name{
+font-size:16px;
+font-weight: bold;
+}
+ 
+
+.alignleft {
+	display: inline;
+	float: left;
+}
+
+.alignright {
+	display: inline;
+	float: right;
+}
+
+.aligncenter {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+blockquote.alignleft,
+.wp-caption.alignleft,
+img.alignleft {
+	margin: 0.4em 1.6em 1.6em 0;
+}
+
+blockquote.alignright,
+.wp-caption.alignright,
+img.alignright {
+	margin: 0.4em 0 1.6em 1.6em;
+}
+
+blockquote.aligncenter,
+.wp-caption.aligncenter,
+img.aligncenter {
+	clear: both;
+	margin-top: 0.4em;
+	margin-bottom: 1.6em;
+}
+
+.wp-caption.alignleft,
+.wp-caption.alignright,
+.wp-caption.aligncenter {
+	margin-bottom: 1.2em;
+}
