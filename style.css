@@ -33,10 +33,7 @@ body {
 .left-header {
 	margin-bottom: -15px;
 }
-#home img {
-	margin-top: 15px;
-	border-radius: 50%;
-}
+
 h1 {
 	font-family: cursive;
 	color: #DECDF5;
@@ -45,45 +42,7 @@ h1 {
 h2 {
 	font-size: 25px;
 }
-.home-cont {
-	display: flex;
-	justify-content: flex-end;
-	margin-top: -150px;
-	margin-right: 100px;
-	flex: 2 0px;
-}
-.about-cont {
-	max-width: 50%;
-	display: flex;
-	margin-top: 200px;
-}
-.about-content p {
-	margin-bottom: 15px;
-}
-.about-content {
-	margin-top: 35px;
-	margin-left: -120px;
-}
-#insta-img {
-	display: flex;
-	justify-content: flex-end;
-	flex: 1;
-	margin-top: -250px;
-}
-#instafeed>div {
-	justify-content: flex-end;
-	border: 2px solid #DECDF5;
-	padding: 10px;
-	color: #656176;
-	margin-bottom: 40px;
-}
-#instafeed .instagram-text {
-	margin-top: 10px;
-}
-#instafeed a {
-	text-decoration: none;
-	color: #656176;
-}
+
 footer {
 	margin-top: 300px;
 }
@@ -91,13 +50,7 @@ footer>div {
 	display: flex;
 	justify-content: center;
 }
-footer ul {
-	margin-left: 10px;
-}
-footer li {
-	float: left;
-	margin-right: 10px;
-}
+
 .header a {
 	padding: 14px 16px;
 	text-decoration: none;
@@ -185,20 +138,6 @@ footer li {
 		justify-content: center;
 		max-width: 100%;
 		margin-top: 100px;
-	}
-	#instafeed {
-		max-width: 320px;
-		margin: 0 auto;
-	}
-	#instafeed>div {
-		border: none;
-		max-width: 100%;
-	}
-	#insta-img {
-		flex: 1;
-		margin-top: 50px;
-		padding: 0;
-		text-align: center;
 	}
 	footer {
 		margin: 0;
